@@ -293,9 +293,9 @@ section{
   }
   .img-box img{
     width: 25vw;
-    height: 25vw;
+    height: 28vw;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
     box-shadow: 0 0 25px var(--hover-color);
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
@@ -332,8 +332,16 @@ section{
    
   }
   .about .img-about img{
-    max-width: 400px;
-    height: auto;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+    filter: drop-shadow(3px 3px 5px var(--hover-color));
+    /* filter: drop-shadow(0 0 10px var(--hover-color));  */
+    /* border-radius: 50%; */
+    
+    /* border-radius: 10%; */
+    /* box-shadow: 5px 5px 10px var(--hover-color); */
+    
   }
   .about-content span{
     color: #fdfdfd;
